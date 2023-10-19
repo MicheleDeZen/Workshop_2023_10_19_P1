@@ -3,7 +3,7 @@ Type: FolderType
 Children:
 - Name: MotorInstance1
   Id: g=a291e99298d515905afaaf8faa0437b0
-  Type: Motor
+  Type: MotorMamnualObj
   Children:
   - Name: speed
     Type: BaseDataVariableType
@@ -22,7 +22,7 @@ Children:
     DataType: String
     Value: "motore1"
 - Name: MotorInstance2
-  Type: Motor
+  Type: MotorMamnualObj
   Children:
   - Name: speed
     Type: BaseDataVariableType

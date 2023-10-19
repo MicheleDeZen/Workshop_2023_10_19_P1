@@ -93,7 +93,7 @@ Children:
   DataType: String
   Value: "string2"
 - File: FromWorkshop/FromWorkshop.yaml
-- Name: Motor
+- Name: MotorMamnualObj
   Id: g=1c781c473317b1850d6acc5f64c4e0d1
   Supertype: BaseObjectType
   Children:
