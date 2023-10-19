@@ -1,0 +1,115 @@
+Name: Model
+Type: ModelCategoryFolder
+Children:
+- Name: ' varBool'
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: Variable1
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+- Name: VarInt
+  Id: g=386b702d692c776ee3f71fa5760308e5
+  Type: BaseDataVariableType
+  DataType: Int16
+  Value: 0
+- Name: VarArray
+  Type: BaseDataVariableType
+  DataType: Int16
+  ValueRank: OneDimension
+  ArrayDimensions: [10]
+  Value: [0,0,0,0,0,0,0,0,0,0]
+- Name: Matrix
+  Type: BaseDataVariableType
+  DataType: Int16
+  ValueRank: 3
+  ArrayDimensions: [10,10,10]
+  Value: {"Type":4,"Dimensions":[10,10,10],"Body":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}
+- Name: varInt
+  Type: BaseObjectType
+  Children:
+  - Name: value
+    Type: BaseDataVariableType
+    DataType: Int16
+    Value: 0
+  - Name: min
+    Type: BaseDataVariableType
+    DataType: Int16
+    Value: 0
+  - Name: max
+    Type: BaseDataVariableType
+    DataType: Int16
+    Value: 32
+- Class: DataType
+  Name: MyEnum
+  Id: g=199b44efa10813eb402a18fb20ea87ed
+  Supertype: Enumeration
+  EnumDefinition: 
+   {
+    "Name": "MyEnum",
+    "DataType": {
+     "IdType": 2,
+     "Id": "199b44efa10813eb402a18fb20ea87ed",
+     "Namespace": 7
+    },
+    "Fields": [{
+      "Name": "Value0",
+      "Value": 0,
+      "DisplayName": {
+       "LocaleId": "en-US",
+       "Text": "off"
+      }
+     },{
+      "Name": "Value1",
+      "Value": 1,
+      "DisplayName": {
+       "LocaleId": "en-US",
+       "Text": "on"
+      }
+     }]
+   }
+  Children:
+  - Name: ns=0;EnumValues
+    Type: BaseDataVariableType
+    DataType: EnumValueType
+    ModellingRule: None
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+    Value: [{"TypeId":{"Id":7594},"Body":{"Value":0,"DisplayName":{"LocaleId":"en-US","Text":"off"},"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}},{"TypeId":{"Id":7594},"Body":{"Value":1,"DisplayName":{"LocaleId":"en-US","Text":"on"},"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}]
+- Name: Variable1
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "lollo"
+- Name: string1
+  Id: g=5555c1a3e58c96e342ccf11b21c7933f
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "string1"
+- Name: string2
+  Id: g=37ad4d4c3c67d40934ddab88eac19328
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "string2"
+- File: FromWorkshop/FromWorkshop.yaml
+- Name: Motor
+  Id: g=1c781c473317b1850d6acc5f64c4e0d1
+  Supertype: BaseObjectType
+  Children:
+  - Name: speed
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: acceleration
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: enable
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: name
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"

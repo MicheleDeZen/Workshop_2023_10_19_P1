@@ -1,0 +1,42 @@
+Name: FromWorkshop
+Type: FolderType
+Children:
+- Name: MotorInstance1
+  Id: g=a291e99298d515905afaaf8faa0437b0
+  Type: Motor
+  Children:
+  - Name: speed
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 50
+  - Name: acceleration
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 20
+  - Name: enable
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 1
+  - Name: name
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "motore1"
+- Name: MotorInstance2
+  Type: Motor
+  Children:
+  - Name: speed
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 60
+  - Name: acceleration
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 50
+  - Name: enable
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: name
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "motor2"
