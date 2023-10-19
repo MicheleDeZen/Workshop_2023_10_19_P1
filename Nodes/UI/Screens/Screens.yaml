@@ -662,7 +662,7 @@ Children:
     - Name: MotorWidget1
       Type: MotorWidget
       Children:
-      - Name: Name
+      - Name: NameLabel
         Type: Label
         Children:
         - Name: Text
@@ -742,7 +742,7 @@ Children:
     - Name: MotorWidget2
       Type: MotorWidget
       Children:
-      - Name: Name
+      - Name: NameLabel
         Type: Label
         Children:
         - Name: Text

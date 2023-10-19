@@ -21,7 +21,7 @@ Children:
     DataType: Size
     ModellingRule: Optional
     Value: 1.0
-  - Name: Name
+  - Name: NameLabel
     Type: Label
     Children:
     - Name: Text
