@@ -382,12 +382,17 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 384.0
+      Value: 688.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 404.0
+      Value: 153.0
+    - Name: Color
+      Type: BaseDataVariableType
+      DataType: Color
+      ModellingRule: Optional
+      Value: "#00f7ff"
 - Name: Screen2
   Id: g=be24c74930ac63d2e68349f6d84e7300
   Supertype: Screen
